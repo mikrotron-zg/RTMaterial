@@ -2,7 +2,7 @@
 @import url(../../../stylesheets/application.css);
 
 @import url(font.css);
-@import url(./colors/color-green-blue.css);
+@import url(./colors/color-deepOrange-blue.css);
 @import url(./color.css);
 @import url(icons.css);
 @import url(mobil.css);
@@ -193,3 +193,20 @@ body.controller-issues.action-show .fa-pencil {
 .mermaid rect.task {
   height: 20px !important;
 }
+
+#content h1, h2, h3, h4, h5, h6 {color: #ff7043;}
+.wiki h1 {font-size: 1.75em;}
+.wiki h2 {font-size: 1.5em;}
+.wiki h3 {font-size: 1.25em;}
+.wiki h4 {font-size: 1.1em; border: none; font-weight: bold;}
+.wiki h5 {font-size: 1.1em;}
+.wiki h6 {font-size: 1.1em; color: #8e8e8e;}
+
+div.wiki ul.toc {background-color: #f7f7f7;}
+div.wiki ul.toc>li:first-child {display: none;}
+div.wiki ul.toc ul {padding:0px 10px 10px 10px;}
+div.wiki ul.toc li {list-style-type:none; margin-top: 10px; font-size:16px; font-weight: bold;}
+div.wiki ul.toc li li {margin-left: 1.5em; margin-top: 5px;  font-size:14px;}
+div.wiki p {font-size: 14px;}
+a.wiki-page {font-size: 14px;}
+
